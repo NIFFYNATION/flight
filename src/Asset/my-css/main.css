@@ -1,0 +1,93 @@
+/* 
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'spartan' sans-serif;
+}
+
+:root{
+  --primaryColor: #A2978F;
+  --bgColor: #C3CDD3;
+  --secondaryColor: #915747;
+  --buttonColor: #342821;
+  --hoverColor: #565356;
+  --white: #fff;
+  --black: #100f0f;
+  --textColor: #121212;
+  --boxShadow: box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
+  --transition: .4s ease-in-out;
+}
+
+body{
+  background: var(--bgColor);
+}
+
+a{
+  text-decoration: none;
+}
+
+li{
+  list-style: none;
+  cursor: pointer;
+}
+
+.icon{
+  display: 1.3rem;
+  cursor: pointer;
+}
+
+
+.flex{
+  display: flex;
+  align-items: center;
+}
+
+.grid{
+  display: grid;
+  align-items: center;
+}
+
+.btn{
+  padding: 7rem 1.5rem;
+  background: var(--primaryColor);
+  border: none;
+  outline: none;
+  border-radius: 3rem;
+  cursor: pointer;
+  color: var(--white);
+}
+
+
+.btn a:hover{
+  background: var(--hoverColor);
+}
+
+img, video{
+  width: 100%;
+  height: auto;
+}
+
+input{
+  font-size: 100%;
+  color: var(--black);
+}
+
+p{
+  font-size: 13px;
+  color: var(--textColor);
+  line-height: 22px;
+}
+
+h4{
+  padding: 1rem 0;
+  font-weight: 700;
+  color: var(--black);
+}
+
+h2{
+  padding: 1rem 0;
+  font-size: 25px;
+  color: var(--black);
+}
+ */
